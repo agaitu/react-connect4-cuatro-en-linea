@@ -1,0 +1,22 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.tablero {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.celda {
+  border: solid 1px black;
+  min-width: 4rem;
+  min-height: 4rem;
+  max-width: 10rem;
+  max-height: 10rem;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+}
